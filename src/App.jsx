@@ -78,7 +78,7 @@ const Navigation = ({ currentPage, setCurrentPage, mobileMenuOpen, setMobileMenu
         <div className="flex items-center space-x-3 cursor-pointer" onClick={() => setCurrentPage('home')}>
           <Scale className="w-10 h-10 text-amber-500" />
           <div>
-            <h1 className="text-2xl font-bold">Okonkwo & Associates</h1>
+            <h1 className="text-2xl font-bold">Victor Ukut & Associates</h1>
             <p className="text-xs text-amber-500">Legal Practitioners & Solicitors</p>
           </div>
         </div>
@@ -428,7 +428,7 @@ const ContactPage = () => {
               <Mail className="w-6 h-6 text-amber-500 flex-shrink-0 mt-1" />
               <div>
                 <h4 className="font-bold mb-1">Email</h4>
-                <p className="text-gray-600">info@okonkwolaw.com.ng<br />chambers@okonkwolaw.com.ng</p>
+                <p className="text-gray-600">info@ukutlaw.com.ng<br />chambers@ukutlaw.com.ng</p>
               </div>
             </div>
           </div>
@@ -478,7 +478,7 @@ const Footer = ({ setCurrentPage }) => (
         <div>
           <div className="flex items-center space-x-2 mb-4">
             <Scale className="w-8 h-8 text-amber-500" />
-            <span className="font-bold text-lg">Okonkwo & Associates</span>
+            <span className="font-bold text-lg">Victor Ukut & Associates</span>
           </div>
           <p className="text-gray-400 text-sm">
             Professional legal services across Nigeria with integrity and excellence.
@@ -513,7 +513,7 @@ const Footer = ({ setCurrentPage }) => (
         </div>
       </div>
       <div className="border-t border-gray-800 mt-8 pt-8 text-center text-sm text-gray-400">
-        <p>&copy; 2026 Okonkwo & Associates. All rights reserved. | Legal Practitioners & Solicitors of the Supreme Court of Nigeria</p>
+        <p>&copy; 2026 Victor Ukut & Associates. All rights reserved. | Legal Practitioners & Solicitors of the Supreme Court of Nigeria</p>
       </div>
     </div>
   </footer>
